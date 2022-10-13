@@ -14,3 +14,9 @@ for number in range(1,101):
   elif(number%5 == 0):
     print("Buzz")
 
+# checking that number is divisible by 3
+  elif (number % 3 == 0):
+    print("Fizz")
+  #And if not divisible by either of them print num as it is
+  else:
+    print(number)
